@@ -4,10 +4,6 @@ namespace PadawansTask10
 {
     public static class NullableTypeExtensions
     {
-        public static bool IsNull(this object variable)
-        {
-            // put your code here
-            throw new NotImplementedException();
-        }
+        public static bool IsNull(this object variable) => variable == null;
     }
 }
